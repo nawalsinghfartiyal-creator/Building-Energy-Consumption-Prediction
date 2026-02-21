@@ -1,57 +1,70 @@
-# Building-Energy-Anomaly-Detection
+# Building Energy Consumption Prediction using Machine Learning
 📌 Project Overview
 
-This project focuses on detecting anomalies in building electricity consumption using data analysis and machine learning techniques. The goal is to identify unusual energy usage patterns that may indicate inefficiencies, faults, abnormal system behavior, or energy wastage.
-By analyzing time-series electricity consumption data, the model helps in proactive energy management, cost optimization, and predictive maintenance.
+This project focuses on analyzing building energy consumption patterns and developing accurate machine learning models to predict electricity usage. The Building Data Genome Project 2 dataset is used to study the relationship between energy consumption, weather conditions, and time-based features.
+The project implements a complete end-to-end data science workflow, including data preprocessing, exploratory data analysis (EDA), feature engineering, and machine learning model development. An advanced XGBoost regression model achieved excellent predictive performance with an R² score of 0.95
 
 
 🎯 Objectives
 
-1. Analyze building electricity consumption patterns
-2. Detect abnormal energy usage (anomalies)
-3. Visualize energy trends and detected anomalies
-4.Improve energy efficiency using data-driven insights
-
+1.Analyze building electricity consumption patterns
+2.Perform data cleaning and preprocessing
+3.Conduct exploratory data analysis (EDA)
+4.Engineer meaningful features from time-series and weather data
+5.Build and evaluate machine learning models for energy prediction
+6.Compare baseline and advanced regression models
 
 📊 Dataset
 
-* The dataset contains historical electricity consumption data recorded at regular time intervals.
+Building Data Genome Project 2
+The dataset contains large-scale time-series data of electricity consumption from multiple buildings, along with weather information.
 
-* Key features include:
+* Key Components:
 
-  * Timestamp
-  *  Power consumption values
+     * Electricity meter readings
+     * Weather data (temperature, humidity, etc.)
+     * Timestamp-based features
 
-* Data preprocessing includes:
+* Preprocessing Steps:
 
-   *  Handling missing values
-   *   Feature scaling
-   *   Time-series transformations
+     * Merging multiple datasets
+     * Handling missing values
+     * Feature extraction from timestamps
+     * Data normalization and transformation
 
 
 ⚙️ Methodology
 
-1. Data Preprocessing
+1. Data Loading & Integration
 
-   -> Cleaning and normalization
+    * Combined multiple datasets including building meter data and weather information.
 
-    ->Feature engineering
+2. Data Cleaning & Preprocessing
+
+    * Handled missing values
+    * Removed anomalies and noise
+    * Performed feature scaling
 
 3. Exploratory Data Analysis (EDA)
 
-   -> Trend visualization
+    * Visualized energy consumption trends
+    * Studied correlations with weather conditions
+    * Analyzed time-based usage patterns
 
-    -> Seasonal pattern detection
+4. Feature Engineering
 
-   -> Statistical summaries
+    * Extracted time-based features (hour, day, month, weekday)
+    * Created weather interaction features
 
-5. Anomaly Detection Techniques
+5. Model Development
 
-    -> Statistical thresholding
+    * Baseline Model: Linear Regression
+    * Advanced Model: XGBoost Regression
 
-   -> Machine learning-based detection
+6. Model Evaluation
 
-   -> Outlier detection algorithms
+    * Performance metric: R² Score
+    * XGBoost achieved R² = 0.95
 
 
 🛠️ Technologies Used
@@ -62,11 +75,15 @@ By analyzing time-series electricity consumption data, the model helps in proact
 5. Seaborn
 6. Scikit-learn
 7. Jupyter Notebook
+8.XGBoost
 
 
 📈 Results
-- Successfully identified unusual electricity consumption patterns
-- Detected spikes and irregular behaviors
-- Visualized anomalies for easy interpretation
-- Demonstrated effectiveness of anomaly detection models
+- Successfully modeled complex building energy consumption patterns
+- XGBoost regression achieved R² score of 0.95
+- Identified strong relationships between:
+      - Energy usage and temperature
+     - Time-based features and consumption patterns
+
+- Demonstrated the effectiveness of machine learning for energy forecasting
    
