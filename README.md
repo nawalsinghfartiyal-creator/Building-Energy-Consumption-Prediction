@@ -14,6 +14,7 @@ By analyzing time-series electricity consumption data, the model helps in proact
 
 
 📊 Dataset
+
 -> The dataset contains historical electricity consumption data recorded at regular time intervals.
 * Key features include:
       * Timestamp
@@ -26,6 +27,7 @@ By analyzing time-series electricity consumption data, the model helps in proact
 
 
 ⚙️ Methodology
+
 1. Data Preprocessing
     -> Cleaning and normalization
     ->Feature engineering
