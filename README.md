@@ -16,28 +16,32 @@ By analyzing time-series electricity consumption data, the model helps in proact
 📊 Dataset
 
 -> The dataset contains historical electricity consumption data recorded at regular time intervals.
+
 * Key features include:
-      * Timestamp
-      * Power consumption values
+
+  * Timestamp
+  *  Power consumption values
 
 * Data preprocessing includes:
-      *  Handling missing values
-      * Feature scaling
-      * Time-series transformations
+
+   *  Handling missing values
+   *   Feature scaling
+   *   Time-series transformations
 
 
 ⚙️ Methodology
 
 1. Data Preprocessing
-    -> Cleaning and normalization
-    ->Feature engineering
 
-2. Exploratory Data Analysis (EDA)
+   -> Cleaning and normalization
+   ->Feature engineering
+
+3. Exploratory Data Analysis (EDA)
      -> Trend visualization
      -> Seasonal pattern detection
      -> Statistical summaries
 
-3. Anomaly Detection Techniques
+4. Anomaly Detection Techniques
     -> Statistical thresholding
     -> Machine learning-based detection
     -> Outlier detection algorithms
