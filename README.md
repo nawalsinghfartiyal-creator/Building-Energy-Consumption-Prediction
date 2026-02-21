@@ -1,4 +1,4 @@
-# Building Energy Consumption Prediction using Machine Learning
+# Building Energy Prediction and Anomaly Detection
 📌 Project Overview
 
 This project focuses on analyzing building energy consumption patterns and developing a complete machine learning pipeline for energy prediction and anomaly detection using the Building Data Genome Project 2 dataset. The study explores the relationship between energy usage, weather conditions, and time-based features to gain meaningful insights into building energy behavior.
@@ -7,19 +7,19 @@ The project implements an end-to-end data science workflow, including data prepr
 
 🎯 Objectives
 
-1.Analyze building electricity consumption patterns
+1. Analyze building electricity consumption patterns
 
-2.Perform data cleaning and preprocessing
+2. Perform data cleaning and preprocessing
 
-3.Conduct exploratory data analysis (EDA)
+3. Conduct exploratory data analysis (EDA)
 
-4.Engineer meaningful features from time-series and weather data
+4. Engineer meaningful features from time-series and weather data
 
-5.Anomaly Detection
+5. Anomaly Detection
 
-6.Build and evaluate machine learning models for energy prediction
+6. Build and evaluate machine learning models for energy prediction
 
-7.Compare baseline and advanced regression models
+7. Compare baseline and advanced regression models
 
 📊 Dataset
 
