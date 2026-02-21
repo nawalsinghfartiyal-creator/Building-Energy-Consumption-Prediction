@@ -82,7 +82,8 @@ The dataset contains large-scale time-series data of electricity consumption fro
 - Successfully modeled complex building energy consumption patterns
 - XGBoost regression achieved R² score of 0.95
 - Identified strong relationships between:
-      - Energy usage and temperature
+
+  - Energy usage and temperature
      - Time-based features and consumption patterns
 
 - Demonstrated the effectiveness of machine learning for energy forecasting
