@@ -27,13 +27,13 @@ The project implements an end-to-end data science workflow, including data prepr
 Building Data Genome Project 2
 The dataset contains large-scale time-series data of electricity consumption from multiple buildings, along with weather information.
 
-* Key Components:
+* **Key Components**:
 
      * Electricity meter readings
      * Weather data (temperature, humidity, etc.)
      * Timestamp-based features
 
-* Preprocessing Steps:
+* **Preprocessing Steps**:
 
      * Merging multiple datasets
      * Handling missing values
@@ -43,40 +43,40 @@ The dataset contains large-scale time-series data of electricity consumption fro
 
 ## ⚙️ Methodology
 
-1. Data Loading & Integration
+1. **Data Loading & Integration**
 
     * Combined multiple datasets including building meter data and weather information.
 
-2. Data Cleaning & Preprocessing
+2. **Data Cleaning & Preprocessing**
 
     * Handled missing values
     * Removed anomalies and noise
     * Performed feature scaling
 
-3. Exploratory Data Analysis (EDA)
+3. **Exploratory Data Analysis (EDA)**
 
     * Visualized energy consumption trends
     * Studied correlations with weather conditions
     * Analyzed time-based usage patterns
 
-4. Feature Engineering
+4. **Feature Engineering**
 
     * Extracted time-based features (hour, day, month, weekday)
     * Created weather interaction features
 
-5. Anomaly Detection
+5. **Anomaly Detection**
 
-   * Implemented **Isolation Forest** to detect abnormal energy usage patterns
+   * Implemented **_Isolation Forest_** to detect abnormal energy usage patterns
    * Identified unusual spikes and drops that may represent system faults, energy inefficiencies, or sensor errors
    * Visualized anomalies using time-series and scatter plots.
 
 
-6. Model Development
+6. **Model Development**
 
-    * Baseline Model: Linear Regression
-    * Advanced Model: XGBoost Regression
+    * Baseline Model: _Linear Regression_
+    * Advanced Model: _XGBoost Regression_
 
-7. Model Evaluation
+7. **Model Evaluation**
 
     * Performance metric: R² Score
     * XGBoost achieved R² = 0.95
